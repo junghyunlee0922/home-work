@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.honey-img, .hand-img, .bory-img{
+  border: 1px solid #C4C4C4;
+  position: relative;
+}
+
+.honey-img:hover, .hand-img:hover, .bory-img:hover{
+  border: 1px solid #0074E9;
+  cursor: pointer;
+}
+
+.box{
+  text-align: center;
+}
+
+.box2{
+  display: flex;
+  justify-content: center;
+}
+
+.honey-text{
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.honey-img{
+  margin: 0 auto;
+  width: 502px;
+  height: 310px;
+  position: relative;
+}
+
+.honey-body{
+  position: absolute;
+  top: 20px;
+  right: 28px;
+}
+
+
+.honey-logo{
+  position: absolute;
+  top: 75px;
+  left: 28px;
+  width: 200px;
+  height: 117px;
+}
+
+.hand-img, .bory-img{
+  width: 243px;
+  height: 310px;
+  margin-top: 16px;
+  padding: 14px 0;
+}
+
+.hand-text, .bory-text{
+  font-family: Noto Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 150%;
+  margin: 10px 0 7px;
+}
+
+.hand-img{
+  margin-right: 16px;
+}
+
+.buy{
+  width: 42px;
+  height: 42px;
+  background: url(/images/button-1.png) no-repeat;
+  border: none;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.buy:hover{
+  width: 112px;
+  background: url(images/button-2.png) no-repeat;
+  cursor: pointer;
+}
