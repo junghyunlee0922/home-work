@@ -1,6 +1,6 @@
 body {
   background: url(./images/747cda3288df4e8e54af5c340d62f823.png) no-repeat 30% 0;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 /* 로그인 text 영역 */
@@ -38,6 +38,7 @@ body {
 .login-box {
   position: absolute;
   top: 339px;
+  width: 311px;
   margin-left: calc(50% - 311px / 2);
 }
 
@@ -121,4 +122,27 @@ body {
   line-height: 48px;
   margin-bottom: 51px;
   background: url(./images/화살표-2.svg) no-repeat top 50% right 14px;
+}
+
+@media (min-width: 600px) {
+  .login-box {
+    width: 540px;
+    margin-left: calc(50% - 540px / 2);
+  }
+  .login-input {
+    width: 540px;
+    height: 70px;
+  }
+  .login-button {
+    flex-direction: row;
+    gap: 20px;
+    margin-left: calc(50% - 540px / 2);
+  }
+  .button {
+    width: 260px;
+    height: 48px;
+  }
+  .membership-button {
+    margin: 0;
+  }
 }
