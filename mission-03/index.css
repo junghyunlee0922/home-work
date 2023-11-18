@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, #000 100%),
+    url(/mission-03/images/mobile-background.png) no-repeat top / cover;
+}
+
+.footer,
+.main {
+  background: #010101;
+}
+
+@media (min-width: 375px) {
+  .header-main {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.75) 0%, #000 100%),
+      url(/mission-03/images/mobile-background.png) no-repeat;
+  }
+
+  .header {
+    background: transparent;
+  }
+
+  .main {
+    background: transparent;
+  }
+}

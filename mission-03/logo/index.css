@@ -1,0 +1,14 @@
+.logo-link {
+  display: inline-block;
+}
+
+.logo-link svg {
+  vertical-align: middle;
+}
+
+@media (min-width: 375px) {
+  .logo-link svg {
+    width: 140px;
+    height: 38px;
+  }
+}

@@ -1,0 +1,68 @@
+/* body{
+  background: black;
+} */
+
+.test {
+  margin: 50px;
+}
+
+.main-box {
+  position: relative;
+}
+
+.label-email {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #757575;
+}
+
+.input-email {
+  border-color: transparent;
+  background: #fff;
+  width: 245px;
+  height: 40px;
+  border-radius: 30px;
+  padding: 10px 20px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.007px;
+}
+
+.input-email:focus {
+  border-color: transparent;
+  outline: 3px solid #e50914;
+}
+
+.input-email:focus + label {
+  transform: translateY(-220%);
+  color: #e50914;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.006px;
+}
+
+@media (min-width: 375px) {
+  .input-email {
+    width: 430px;
+    height: 60px;
+    border-radius: 0;
+    padding: 26px 20px 10px;
+
+    font-size: 16px;
+    letter-spacing: -0.008px;
+  }
+
+  .input-email:focus {
+    box-shadow: 0 3px 0 0 #e50914;
+    outline: none;
+  }
+
+  .input-email:focus + label {
+    transform: translateY(-120%);
+  }
+}

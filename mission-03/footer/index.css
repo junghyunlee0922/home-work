@@ -1,0 +1,93 @@
+.footer-box {
+  padding: 40px 25px;
+}
+
+.tell-number {
+  display: flex;
+  flex-direction: column;
+  color: #c8c8c8;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.01px;
+}
+
+.guide {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  padding: 26px 0 51px 0;
+}
+
+.guide a {
+  display: block;
+  width: 150px;
+  height: 19px;
+  color: #acacac;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.007px;
+}
+
+.address p,
+a {
+  color: #919191;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.007px;
+}
+
+.address b {
+  color: #acacac;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: -0.01px;
+}
+
+.netflix-korea {
+  display: block;
+  padding: 30px 0 10px 0;
+}
+
+@media (min-width: 375px) {
+  .footer-box {
+    padding: 50px 5%;
+  }
+
+  .tell-number {
+    display: block;
+  }
+
+  .guide {
+    row-gap: 16px;
+    column-gap: 40px;
+    padding: 50px 0 46px 0;
+  }
+
+  .guide a {
+    width: 200px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 120%;
+  }
+
+  .address p,
+  a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.008px;
+  }
+
+  .address b {
+    font-size: 22px;
+    line-height: 120%;
+  }
+
+  .netflix-korea {
+    padding: 46px 0 16px 0;
+  }
+}

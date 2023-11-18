@@ -1,0 +1,52 @@
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+select {
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+}
+
+.language {
+  display: block;
+  padding: 5.5px 34px;
+  /* width: 113px; */
+  height: 30px;
+  border-radius: 2px;
+  border: 1px solid #757575;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 120%;
+  background: url(/mission-03/images/global.svg) no-repeat left 10px top 50%,
+    url(/mission-03/images/arrow.svg) no-repeat right 10px top 50%;
+}
+
+.language-footer {
+  padding: 12px 34px;
+  height: 43px;
+}
+
+.language:focus {
+  border-color: transparent;
+  outline: 3px solid #2ede75;
+}
+
+@media (min-width: 375px) {
+  .language {
+    height: 40px;
+    padding: 10.5px 34px;
+  }
+  .language-footer {
+    height: 43px;
+  }
+}
